@@ -1,0 +1,66 @@
+@import url(../components/font.css);
+
+.header {
+    background-color: white;
+    float: left;
+    width: calc(100% - 226px);
+    height: 48px;
+    border-bottom: 2px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    /* bank */
+    .header .header-bank {
+        display: flex;
+        align-items: center;
+        padding-left: 16px;
+        height: 42px;
+    }
+
+        .header-bank .bank-name {
+            font-family: GoogleSans-Bold;
+        }
+
+        .header-bank .bank-name:hover {
+            cursor: pointer;
+        }
+
+        .header-bank .bank-icon {
+            padding: 12px 14px 12px 14px;
+            font-weight: 900;
+            color: rgb(187, 187, 187);
+            margin-left: 10px;
+            border-radius: 4px;
+        }
+        .header-bank .bank-icon:hover {
+            cursor:  pointer;
+            background-color : #e5e5e5;
+        }
+    .header .header-user {
+        display: flex;
+        align-items: center;
+        margin-right: 16px;
+        height : 32px;
+    }
+
+        .header-user .user-avatar {
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 32px;
+            width: 32px;
+            margin-right: 16px;
+            cursor: pointer;
+        }
+
+        .header-user .user-option-icon {
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 16px;
+            width: 16px;
+            margin-left: 16px;
+        }
+
+        .header-user .user-option-icon:hover {
+            cursor: pointer;
+        }
